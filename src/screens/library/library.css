@@ -1,0 +1,42 @@
+.library-body{
+    width: 94%;
+    height: 87%;
+    padding: 3%;
+    display: flex;
+    flex-wrap:wrap;
+    overflow-y: auto;
+    justify-content: flex-start; /* Align items starting from the left */
+    gap: 40px; /* Optional: Add spacing between cards */
+}
+
+.playlist-card{
+    width: 15%;
+    height: 50%;
+    border-radius: 20px;
+    background-color: rgb(30, 42, 62);
+    border:1px solid rgba(54, 69, 98, 0.18);
+    padding: 1%;
+    margin-bottom: 2%;
+    background: linear-gradient(75deg,rgb(40,58,88) 0%,rgba(54,69,98,0) 100%);
+    transition: all 0.5 ease;
+}
+.playlist-image{
+    width: 100%;
+    border-radius: 15px;
+}
+.playlist-card:hover{
+    transform: scale(1.02);
+    background-color: antiquewhite;
+}
+.playlist-title{
+    font-weight: 800;
+    font-size: 16px;
+    color: #c4d0e3;
+    margin: 10px 0 10px;
+}
+.playlist-subtitle{
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0px;
+}
+
